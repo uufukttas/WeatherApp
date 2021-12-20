@@ -13,4 +13,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Also you can see this project with demo.
-[Click demo](https://app.netlify.com/sites/uufukttas-weather-app)
+[Click demo](https://uufukttas-weather-app.netlify.app/)
