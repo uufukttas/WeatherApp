@@ -14,7 +14,7 @@ function FindCity() {
     }
 
     const getData = async (city) => {
-        axios(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=`).then(res => convertToCelcius(res.data.main.temp))
+        axios(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}`).then(res => convertToCelcius(res.data.main.temp))
     }
 
     const convertToCelcius = temp => {
