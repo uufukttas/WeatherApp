@@ -4,7 +4,7 @@ import FindCity from './Components/FindCity';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen">
       <FindCity/>
     </div>
   );
