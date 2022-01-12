@@ -31,7 +31,7 @@ function FindCity() {
 
     const findImage = temperature => {
         let image;
-        
+
             if (temperature <= 0) {
                 image = '/snow.jpg';
             } else if (temperature <= 10 && temperature > 0) {
